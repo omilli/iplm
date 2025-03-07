@@ -87,18 +87,17 @@ Deep thinking involves a multi-phase approach to understanding and processing us
  ┣ 📂ui  
  ┣ ┣ 📂components  
  ┣ ┗ 📂pages  
- ┣ 📂utils  
- ┣ 📂types  
+ ┗ 📂utils  
 
 ### Server
 
 📦src      
- ┣ 📂app  
- ┣ 📂database  
- ┣ 📂models  
- ┣ 📂sync    
- ┣ 📂types    
- ┗ 📂utils
+ ┣ 📂apps  
+ ┣ ┗ 📂models  
+ ┣ 📂lib  
+ ┣ ┣ 📂database  
+ ┣ ┣ 📂models  
+ ┗ ┗ 📂utils  
 
  ## Coding Style
  - Functional programming
