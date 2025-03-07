@@ -1,6 +1,7 @@
 import cors from "cors";
-import { getModelServer } from "./getModelServer"
-import { getDatabase, setupModelRoute } from "../../database";
+import { getDatabase } from "@/shared/database";
+import { getModelServer } from "./lib/getModelServer"
+import { setupModelRoute } from "./lib/setupModelRoute";
 
 const modelServer = getModelServer();
 const port = 3000;

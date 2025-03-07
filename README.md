@@ -94,7 +94,7 @@ Deep thinking involves a multi-phase approach to understanding and processing us
 📦src      
  ┣ 📂apps  
  ┣ ┗ 📂models  
- ┣ 📂lib  
+ ┣ 📂shared  
  ┣ ┣ 📂database  
  ┣ ┣ 📂models  
  ┗ ┗ 📂utils  
