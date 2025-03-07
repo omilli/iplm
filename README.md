@@ -12,7 +12,7 @@ Run Large Language Models in a privacy-focused, local-first, peer-to-peer progre
 
 - Hella
 - MLC WebLLM
-- RxDB
+- PouchDB
 - PicoCSS
 - Vite 
 
@@ -20,7 +20,7 @@ Run Large Language Models in a privacy-focused, local-first, peer-to-peer progre
 
 ### Model Sharding
 
-`@mlc-ai/web-llm` compatible models are sharded across the iplm network which is powered by `rxdb`. Support for partial and parallel model installs comes out of the box. Models are installed directly from peers.
+`@mlc-ai/web-llm` compatible models are sharded across the iplm network which is powered by `pouchdb`. Support for partial and parallel model installs comes out of the box. Models are installed directly from peers.
 
 ### Prompt Sharding
 
