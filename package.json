@@ -5,9 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "app": "bun --filter @iplm/app dev",
-    "server": "bun --filter @iplm/server",
-    "server:model": "bun server model"
+    "client": "bun --filter @iplm/client dev",
+    "network": "bun --filter @iplm/network",
+    "network:model": "bun --filter @iplm/network model"
   },
   "module": "index.ts",
   "type": "module",

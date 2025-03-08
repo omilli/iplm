@@ -1,5 +1,5 @@
 {
-  "name": "@iplm/app",
+  "name": "@iplm/client",
   "private": true,
   "version": "0.0.0",
   "type": "module",

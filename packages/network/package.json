@@ -1,0 +1,6 @@
+{
+  "name": "@iplm/network",
+  "scripts": {
+    "model": "bun run src/servers/model/index.ts"
+  }
+}

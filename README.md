@@ -60,21 +60,22 @@ Deep thinking involves a multi-phase approach to understanding and processing us
 
 ## Core Functionality
 
-### Library
-
-- 🟥 Install model from source
-- 🟥 Write model to database
-- 🟥 Install model using p2p shards
-- 🟥 Write model shards to browser cache
-- 🟥 Choose prompt model
-- 🟥 Create query intent model
-- 🟥 Process & display chat
+### CLient
+- 🟢 Server Sync
+- 🔴 Install model from source
+- 🔴 Write model to database
+- 🔴 Install model using p2p shards
+- 🔴 Write model shards to browser cache
+- 🔴 Choose prompt model
+- 🔴 Create query intent model
+- 🔴 Process & display chat
 
 ### Network
-
-- 🟥 White list MLC models
-- 🟥 Fetch model from source
-- 🟥 Write model files to database 
+- 🟢 Model Server
+- 🟡 Database Services
+- 🟠 Model Services
+- 🔴 Fetch model from source
+- 🔴 Write model files to database 
 
 ## Architecture
 
@@ -89,7 +90,7 @@ Deep thinking involves a multi-phase approach to understanding and processing us
  ┣ ┗ 📂pages  
  ┗ 📂utils  
 
-### Server
+### Network
 
 📦src      
  ┣ 📂apps  

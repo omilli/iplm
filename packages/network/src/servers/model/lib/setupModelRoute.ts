@@ -1,6 +1,6 @@
 import ExpressPouchDB from 'pouchdb-express-router';
 import { getModelServer } from './getModelServer';
-import { getDatabaseWithPath } from '@/shared/database/getDatabaseWithPath';
+import { getDatabaseWithPath } from '@/services/database/getDatabaseWithPath';
 import e from 'express';
 
 const modelServer = getModelServer();

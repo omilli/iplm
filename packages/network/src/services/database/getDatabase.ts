@@ -62,7 +62,7 @@ async function initializeDatabase(db: PouchDB.Database<{}>): Promise<PouchDB.Dat
     const pouchError = error as PouchDB.Core.Error
 
     if (pouchError.name === 'conflict') {
-      console.warn('Database already initialized, raise an issue if you see this message.');
+      console.warn('Database already initialized');
     } else {
       throw new Error('Error initializing database');
     }

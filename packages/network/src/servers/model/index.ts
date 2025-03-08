@@ -1,5 +1,5 @@
 import cors from "cors";
-import { getDatabase } from "@/shared/database";
+import { getDatabase } from "@/services/database";
 import { getModelServer } from "./lib/getModelServer"
 import { setupModelRoute } from "./lib/setupModelRoute";
 
