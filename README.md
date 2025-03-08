@@ -60,7 +60,7 @@ Deep thinking involves a multi-phase approach to understanding and processing us
 
 ## Core Functionality
 
-### CLient
+### Client
 - 🟢 Server Sync
 - 🔴 Install model from source
 - 🔴 Write model to database
@@ -71,7 +71,7 @@ Deep thinking involves a multi-phase approach to understanding and processing us
 - 🔴 Process & display chat
 
 ### Network
-- 🟢 Model Server
+- 🟢 Model Server Sync
 - 🟡 Database Services
 - 🟠 Model Services
 - 🔴 Fetch model from source
@@ -79,11 +79,13 @@ Deep thinking involves a multi-phase approach to understanding and processing us
 
 ## Architecture
 
-### App
+### Client
 
 📦src    
  ┣ 📂services  
- ┣ ┣ 📂llm  
+ ┣ ┣ 📂chat  
+ ┣ ┣ 📂database
+ ┣ ┣ 📂model  
  ┣ ┗ 📂worker  
  ┣ 📂ui  
  ┣ ┣ 📂components  
@@ -93,12 +95,12 @@ Deep thinking involves a multi-phase approach to understanding and processing us
 ### Network
 
 📦src      
- ┣ 📂apps  
- ┣ ┗ 📂models  
- ┣ 📂shared  
+ ┣ servers  
+ ┣ ┗ 📂model  
+ ┣ 📂services  
  ┣ ┣ 📂database  
  ┣ ┣ 📂models  
- ┗ ┗ 📂utils  
+ ┗ 📂utils  
 
  ## Coding Style
  - Functional programming
