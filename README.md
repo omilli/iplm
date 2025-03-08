@@ -1,4 +1,4 @@
-# Interplanetary Language Models (iplm.js)
+# Interplanetary Language Models
 
 Run Large Language Models in a privacy-focused, local-first, peer-to-peer progressive web app with offline support.
 
