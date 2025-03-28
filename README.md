@@ -69,9 +69,3 @@ Large prompts, or prompts that cover multiple subjects, are sharded into multipl
  ┣ ┣ 📂database  
  ┣ ┣ 📂models  
  ┗ 📂utils  
-
- ## Coding Style
- - Functional programming
- - Prefix functions with verbs
- - Only 1 function export per file
- - File name === function export name
